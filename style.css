@@ -1,0 +1,91 @@
+body{
+	font-family:Leckerli One;
+		
+	font: 15px;
+	padding: 10px;
+	margin: 10px;
+	background-color:#fff;
+}
+.container{
+	width: auto;
+	margin: auto%;
+	overflow:hidden;
+}
+header {
+	font-size: 2.5em;
+	font-family:Comic Sans MS;
+	border:#e8491d 5px solid;
+	margin-bottom: 1em;
+	padding-bottom: 2em;
+	color:#696969;
+	 }
+	header 
+	{
+		background-image: url('../img/b.jpg');
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+	} 
+header li{
+	display: inline;
+	padding-right: 0.5em;
+	padding-left: 0.3em;
+	padding-top: 2.5em;
+	margin-top: 2.5em;
+	font-size: 35px;
+	font-style:italic;
+
+}
+header nav{
+	margin-top:2.5em;
+	margin-left:1em;
+	float:2.5em;
+	display:inline;
+	font-size: 35px;
+	
+	 color:#coral;
+}
+header a:hover{
+
+	color: #cccccc;
+    font-weight:bold; 
+
+}
+#showcase{
+	font-style:italic;
+	font-size:3em;
+		color:#111;
+		text-align: center;
+		margin-bottom: 10px;
+
+
+	min-height:700px;
+	background-color: coral;
+	border-image-repeat: no-repeat;
+	background-position: center;
+	background-position: -400px -200px;
+	background-size:cover;  
+}
+/* boxes8*/
+#boxes{
+	margin-top: 20px;
+
+}
+#boxes .box{
+	float: left;
+	width: 33.3%
+
+
+}
+#boxes .box h1{
+	font-family:sans-serif;
+	color: coral;
+	font-size:40px;
+	text-align: center;
+	border:10px;
+	border-spacing: 10px;
+}
+#boxes .box img{
+	width:400px;
+	padding: 10px;
+}
